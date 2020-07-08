@@ -1,80 +1,136 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Me-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="About_me_and_my_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7068" translatesAutoresizingMaskIntoConstraints="NO" id="VBK-gI-OJ9">
+                                <rect key="frame" x="10" y="54" width="187" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="e0f-Cq-Z4T"/>
+                                    <constraint firstAttribute="height" constant="300" id="lPZ-k9-nZg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Привет!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yOb-Kg-k6V">
+                                <rect key="frame" x="276" y="54" width="67" height="22"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Меня зовут Даша" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pz1-U6-n4U">
+                                <rect key="frame" x="233" y="103" width="153" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мне 18, и в этом году я окончила школу" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFZ-qx-k1v">
+                                <rect key="frame" x="215" y="164" width="189" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Во всех социальных сетях ты можешь найти меня под ником daryamih02" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuM-5i-U4K">
+                                <rect key="frame" x="210" y="233" width="199" height="86"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KNo-9F-OZh">
+                                <rect key="frame" x="10" y="374" width="394" height="387"/>
+                                <mutableString key="text">Я занимаюсь программированием 3 года. Начинала со спортивного программирования, благодаря которому узнала такие языки программирования, как Pascal, C++ и в меньшей степени Python, побывала в 4 летних школах по математике и спортивному программированию. Далее после прохождения январской(2019г.) смены по мобильной разработке(Android) в Сириусе я глубже погрузилась в промышленное програмирование и нашла для себя наиболее близкий профиль- IOS. На данный момент у меня нет каких-то особо крупных проектов в IOS,а лишь десяток мелких приложений, поэтому мне будет очень приятно поработать и создать что-то действительно крутое и классное) Свою идею не считаю каноном и готова сотрудничать</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="pz1-U6-n4U" secondAttribute="trailing" constant="28" id="44s-p6-uM5"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="dFZ-qx-k1v" secondAttribute="trailing" constant="10" id="5td-Sh-tKL"/>
+                            <constraint firstItem="yOb-Kg-k6V" firstAttribute="leading" secondItem="VBK-gI-OJ9" secondAttribute="trailing" constant="79" id="Cs4-N4-LtQ"/>
+                            <constraint firstItem="dFZ-qx-k1v" firstAttribute="top" secondItem="pz1-U6-n4U" secondAttribute="bottom" constant="39.5" id="JNg-Rb-URN"/>
+                            <constraint firstItem="VBK-gI-OJ9" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="10" id="Ls0-AJ-0ka"/>
+                            <constraint firstItem="KNo-9F-OZh" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="10" id="TFy-8V-hpW"/>
+                            <constraint firstItem="yOb-Kg-k6V" firstAttribute="top" secondItem="VBK-gI-OJ9" secondAttribute="top" id="VLc-FA-ZLf"/>
+                            <constraint firstItem="pz1-U6-n4U" firstAttribute="leading" secondItem="VBK-gI-OJ9" secondAttribute="trailing" constant="36" id="VMZ-X1-Xcb"/>
+                            <constraint firstItem="yuM-5i-U4K" firstAttribute="leading" secondItem="VBK-gI-OJ9" secondAttribute="trailing" constant="13" id="aKm-YE-GV9"/>
+                            <constraint firstItem="pz1-U6-n4U" firstAttribute="top" secondItem="yOb-Kg-k6V" secondAttribute="bottom" constant="27" id="boT-FV-viD"/>
+                            <constraint firstItem="KNo-9F-OZh" firstAttribute="top" secondItem="VBK-gI-OJ9" secondAttribute="bottom" constant="20" id="el6-ez-EHe"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="yuM-5i-U4K" secondAttribute="trailing" constant="5" id="oz5-1H-fHJ"/>
+                            <constraint firstItem="yuM-5i-U4K" firstAttribute="top" secondItem="dFZ-qx-k1v" secondAttribute="bottom" constant="26" id="rR1-zO-3fH"/>
+                            <constraint firstItem="dFZ-qx-k1v" firstAttribute="leading" secondItem="VBK-gI-OJ9" secondAttribute="trailing" constant="18" id="tJG-Wy-Ol6"/>
+                            <constraint firstItem="VBK-gI-OJ9" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="10" id="v2H-md-AVS"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KNo-9F-OZh" secondAttribute="trailing" constant="10" id="zoW-GV-WF4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Me" image="person" catalog="system" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="ageLabel" destination="dFZ-qx-k1v" id="Sni-ka-1Ys"/>
+                        <outlet property="helloLabel" destination="yOb-Kg-k6V" id="ctg-jd-RXQ"/>
+                        <outlet property="nameLabel" destination="pz1-U6-n4U" id="Rqe-h8-bk9"/>
+                        <outlet property="networkLabel" destination="yuM-5i-U4K" id="FAR-ql-VlO"/>
+                        <outlet property="photoMe" destination="VBK-gI-OJ9" id="whV-Ba-TOf"/>
+                        <outlet property="programmingLabel" destination="KNo-9F-OZh" id="E3i-Or-bu7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
         </scene>
-        <!--Second-->
+        <!--My idea-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="About_me_and_my_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ресторан.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hS8-PS-Lry">
+                                <rect key="frame" x="10" y="54" width="394" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="4wK-KT-Np7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="25" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXy-99-YNP">
+                                <rect key="frame" x="18" y="362" width="379" height="284.5"/>
+                                <mutableString key="text">Приложение для бронирования столиков в кафе и ресторанах, а также для предварительного заказа блюд. Это поможет сократить время ожидания заказа и сразу наслаждаться заказаннными блюдами. А так же поможет сократить скопления людей в пределах одного помещения(люди не ждут свой заказ, а значит меньше находятся в кафе и меньше влияют на текущее количество посетителей). Отличие от служб доставки в том, что работа идет с конкретными ресторанами, и пользователи лишь экономят свое время, а не полностью отказываются от похода в кафе. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="hS8-PS-Lry" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="10" id="KhP-pv-nIW"/>
+                            <constraint firstItem="hS8-PS-Lry" firstAttribute="top" secondItem="O1u-W8-tvY" secondAttribute="top" constant="10" id="bNQ-WL-2Y3"/>
+                            <constraint firstItem="JXy-99-YNP" firstAttribute="leading" secondItem="O1u-W8-tvY" secondAttribute="leading" constant="18" id="cKC-Cn-Jgb"/>
+                            <constraint firstItem="JXy-99-YNP" firstAttribute="top" secondItem="hS8-PS-Lry" secondAttribute="bottom" constant="8" id="jw2-M8-Y6W"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="JXy-99-YNP" secondAttribute="trailing" constant="17" id="ld5-kD-3uO"/>
+                            <constraint firstItem="O1u-W8-tvY" firstAttribute="trailing" secondItem="hS8-PS-Lry" secondAttribute="trailing" constant="10" id="z67-8D-50H"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="My idea" image="pencil" catalog="system" id="cPa-gy-q4n"/>
+                    <connections>
+                        <outlet property="appLabel" destination="JXy-99-YNP" id="S14-b8-2Jf"/>
+                        <outlet property="photoRest" destination="hS8-PS-Lry" id="Xet-Yh-DdB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="360"/>
+            <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -96,7 +152,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="IMG_7068" width="2320" height="3088"/>
+        <image name="pencil" catalog="system" width="64" height="56"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+        <image name="ресторан.jpg" width="1082" height="609"/>
     </resources>
 </document>

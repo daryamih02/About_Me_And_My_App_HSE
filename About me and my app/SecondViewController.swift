@@ -10,6 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var photoRest: UIImageView!
+    
+    @IBOutlet weak var appLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

@@ -16,6 +16,15 @@
 		D09C609B24B4833000D0640E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09C609924B4833000D0640E /* LaunchScreen.storyboard */; };
 		D09C60A624B4833100D0640E /* About_me_and_my_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C60A524B4833100D0640E /* About_me_and_my_appTests.swift */; };
 		D09C60B124B4833100D0640E /* About_me_and_my_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C60B024B4833100D0640E /* About_me_and_my_appUITests.swift */; };
+		D09C60BF24B48E7E00D0640E /* IMG_7068.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = D09C60BE24B48E7E00D0640E /* IMG_7068.HEIC */; };
+		D09C60C024B48E7E00D0640E /* IMG_7068.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = D09C60BE24B48E7E00D0640E /* IMG_7068.HEIC */; };
+		D09C60C124B48E7E00D0640E /* IMG_7068.HEIC in Resources */ = {isa = PBXBuildFile; fileRef = D09C60BE24B48E7E00D0640E /* IMG_7068.HEIC */; };
+		D09C60C324B4A08100D0640E /* ресторан.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D09C60C224B4A08100D0640E /* ресторан.jpg */; };
+		D09C60C424B4A08100D0640E /* ресторан.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D09C60C224B4A08100D0640E /* ресторан.jpg */; };
+		D09C60C524B4A08100D0640E /* ресторан.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D09C60C224B4A08100D0640E /* ресторан.jpg */; };
+		D09C60C724B4B2A500D0640E /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C60C624B4B2A500D0640E /* Me.swift */; };
+		D09C60C824B4B2A500D0640E /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C60C624B4B2A500D0640E /* Me.swift */; };
+		D09C60C924B4B2A500D0640E /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C60C624B4B2A500D0640E /* Me.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,9 @@
 		D09C60AC24B4833100D0640E /* About me and my appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "About me and my appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D09C60B024B4833100D0640E /* About_me_and_my_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About_me_and_my_appUITests.swift; sourceTree = "<group>"; };
 		D09C60B224B4833100D0640E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09C60BE24B48E7E00D0640E /* IMG_7068.HEIC */ = {isa = PBXFileReference; lastKnownFileType = file; path = IMG_7068.HEIC; sourceTree = "<group>"; };
+		D09C60C224B4A08100D0640E /* ресторан.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ресторан.jpg"; sourceTree = "<group>"; };
+		D09C60C624B4B2A500D0640E /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +119,11 @@
 				D09C609224B4832900D0640E /* SecondViewController.swift */,
 				D09C609424B4832900D0640E /* Main.storyboard */,
 				D09C609724B4833000D0640E /* Assets.xcassets */,
+				D09C60C224B4A08100D0640E /* ресторан.jpg */,
+				D09C60BE24B48E7E00D0640E /* IMG_7068.HEIC */,
 				D09C609924B4833000D0640E /* LaunchScreen.storyboard */,
 				D09C609C24B4833000D0640E /* Info.plist */,
+				D09C60C624B4B2A500D0640E /* Me.swift */,
 			);
 			path = "About me and my app";
 			sourceTree = "<group>";
@@ -236,8 +251,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09C609B24B4833000D0640E /* LaunchScreen.storyboard in Resources */,
+				D09C60BF24B48E7E00D0640E /* IMG_7068.HEIC in Resources */,
 				D09C609824B4833000D0640E /* Assets.xcassets in Resources */,
 				D09C609624B4832900D0640E /* Main.storyboard in Resources */,
+				D09C60C324B4A08100D0640E /* ресторан.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +262,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C60C424B4A08100D0640E /* ресторан.jpg in Resources */,
+				D09C60C024B48E7E00D0640E /* IMG_7068.HEIC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +271,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D09C60C524B4A08100D0640E /* ресторан.jpg in Resources */,
+				D09C60C124B48E7E00D0640E /* IMG_7068.HEIC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +286,7 @@
 				D09C609324B4832900D0640E /* SecondViewController.swift in Sources */,
 				D09C609124B4832900D0640E /* FirstViewController.swift in Sources */,
 				D09C608D24B4832900D0640E /* AppDelegate.swift in Sources */,
+				D09C60C724B4B2A500D0640E /* Me.swift in Sources */,
 				D09C608F24B4832900D0640E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09C60A624B4833100D0640E /* About_me_and_my_appTests.swift in Sources */,
+				D09C60C824B4B2A500D0640E /* Me.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D09C60B124B4833100D0640E /* About_me_and_my_appUITests.swift in Sources */,
+				D09C60C924B4B2A500D0640E /* Me.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
